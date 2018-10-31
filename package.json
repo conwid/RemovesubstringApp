@@ -1,0 +1,15 @@
+{
+  "name": "removesubstring",
+  "version": "1.0.0",
+  "description": "Ghost helper to cut a string from another",   
+  "author": "Akos Nagy",
+  "license": "MIT",
+  "dependencies": {
+    "ghost-app": "0.0.2"
+  },
+  "ghost": {
+      "permissions": {
+          "helpers": ["removeSubstring"]
+      }
+  }
+}
